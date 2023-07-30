@@ -1,0 +1,24 @@
+.payment-control {
+    padding: 0 32px;
+}
+
+.payment-control .heading {
+    padding: 10px 0;
+    color: #ffffff;
+    background-color: #7e8eaa;
+}
+
+.payment-control .nextBtn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);
+    background-color: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.payment-control .nextBtn:disabled {
+    background-color: #a39999;
+    border: 2px solid #030000;
+    color: #0c0c0c;
+}
